@@ -1,6 +1,6 @@
 To run this code:
 ```
-git clone
+git clone https://github.com/turchynkyrylo/ComfyUI-to-code.git
 cd ComfyUI
 python -m venv venv
 venv\Scripts\activate
