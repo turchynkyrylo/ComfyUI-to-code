@@ -8,8 +8,6 @@ import json
 import logging
 from functools import lru_cache
 
-from utils.json_util import merge_json_recursive
-
 
 # Extra locale files to load into main.json
 EXTRA_LOCALE_FILES = [
@@ -84,10 +82,6 @@ class CustomNodeManager:
                         if json_data:
                             node_translations[key] = json_data
 
-                    if node_translations:
-                        translations[lang_code] = merge_json_recursive(
-                            translations[lang_code], node_translations
-                        )
 
         return translations
 
