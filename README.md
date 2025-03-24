@@ -14,7 +14,11 @@ Navigate to your ```ComfyUI/custom_nodes``` directory
 
 Navigate to the ```ComfyUI-to-Python-Extension``` folder and install requirements
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 To run workflow:
-```python workflow_api.py```
+```
+python workflow_api.py
+```
